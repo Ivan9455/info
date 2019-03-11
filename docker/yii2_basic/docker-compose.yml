@@ -1,0 +1,53 @@
+version: '2'
+networks:
+  default:
+    driver: bridge
+
+services:
+  nginx:
+    build: ./docker/images/nginx
+    ports:
+      - 60:80
+    restart: always
+    networks:
+      - default
+    depends_on:
+      - db
+    volumes:
+      - ./:/var/web
+      - ./docker/nginx/conf.d:/etc/nginx/conf.d
+      - ./docker/nginx/logs:/var/log/nginx/
+    links:
+      - php
+  php:
+    env_file:
+      - .env
+    working_dir: /var/web
+    build: ./docker/images/php
+    networks:
+      - default
+    links:
+      - db:db
+    volumes:
+      - ./:/var/web
+  db:
+    env_file:
+      - .env
+    build: ./docker/images/db
+    networks:
+      - default
+    restart: always
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - 3307:3306
+    volumes:
+      - ./docker/db:/var/lib/mysql
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 6080:8080

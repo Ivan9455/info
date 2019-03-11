@@ -1,0 +1,1107 @@
+2019/03/04 12:49:12 [error] 6#6: *18 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/web/config/db.php on line 5. in /var/web/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: session_set_cookie_params(): Cannot change session cookie parameters when headers already sent in /var/web/vendor/yiisoft/yii2/web/Session.php:388
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'session_set_coo...', '/var/web/vendor...', 388, Array)
+#1 /var/web/vendor/yiisoft/yii2/web/Session.php(388): session_set_c" while reading upstream, client: 172.21.0.1, server: task-yii.com, request: "GET /site/post HTTP/1.1", upstream: "fastcgi://172.21.0.4:9000", host: "localhost:60", referrer: "http://localhost:60/site/index"
+2019/03/04 13:53:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:53:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:53:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:54:14 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:54:35 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:54:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:55:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:55:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:56:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:56:25 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:56:47 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:57:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:57:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:57:53 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:58:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:58:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:58:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:59:20 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 13:59:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:00:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:00:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:00:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:01:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:01:32 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:01:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:02:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:02:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:02:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:03:21 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:03:43 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:04:05 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:04:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:04:49 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:05:11 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:05:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:05:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:06:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:06:39 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:07:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:07:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:07:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:08:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:08:29 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:08:51 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:09:13 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:09:35 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:09:56 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:10:18 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:10:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:11:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:11:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:11:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:11:22 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:11:29 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:11:35 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:11:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:11:56 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:12:25 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:13:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:14:21 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:15:22 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:16:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:17:25 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:18:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:19:28 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:20:29 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:21:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:22:32 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:23:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:24:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:25:36 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:26:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:27:39 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:28:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:29:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:30:43 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:31:44 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:32:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:33:47 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:34:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:35:49 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:36:51 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:37:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:38:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:39:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:40:56 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:41:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:42:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:44:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:45:02 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:46:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:47:05 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:48:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:49:08 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:50:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:51:11 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:52:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:53:14 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:54:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:55:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:56:18 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:57:20 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:58:22 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 14:59:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:00:25 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:01:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:02:28 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:03:29 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:04:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:05:32 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:06:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:07:35 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:08:36 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:09:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:10:39 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:11:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:12:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:13:44 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:14:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:15:46 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:16:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:17:49 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:18:51 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:19:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:20:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:21:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:22:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:23:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:25:00 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:26:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:27:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:28:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:29:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:30:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:31:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:32:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:33:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:34:13 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:35:14 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:36:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:37:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:38:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:39:21 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:40:22 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:41:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:42:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:43:28 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:44:29 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:45:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:46:32 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:47:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:48:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:49:35 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:50:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:51:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:52:39 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:53:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:54:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:55:43 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:56:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:57:46 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:58:47 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 15:59:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 16:00:50 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 16:01:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 16:02:53 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 16:03:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 16:04:56 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 16:05:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/04 16:06:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:16:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:16:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:16:50 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:16:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:16:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:17:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:17:08 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:17:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:17:32 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:17:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:18:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:19:53 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:20:56 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:21:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:22:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:24:00 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:25:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:26:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:27:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:28:05 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:29:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:30:08 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:31:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:32:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:33:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:34:13 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:35:14 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:36:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:37:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:38:18 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:39:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:40:21 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:41:22 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:42:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:43:25 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:44:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:45:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:46:29 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:47:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:48:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:49:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:50:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:51:36 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:52:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:53:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:54:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:55:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 04:56:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:01:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:01:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:01:46 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:02:14 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:02:18 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:02:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:02:28 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:02:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:02:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:02:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:03:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:03:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:04:25 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:05:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:06:29 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:07:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:08:32 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:09:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:10:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:11:36 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:12:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:13:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:14:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:15:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:16:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:17:44 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:18:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:19:47 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:20:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:21:49 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:22:51 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:23:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:24:53 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:25:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:26:56 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:27:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:28:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:30:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:31:02 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 06:32:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 13:55:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 13:55:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 13:56:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 13:56:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 13:56:13 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 13:56:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 13:56:22 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 13:56:29 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 13:56:43 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 13:57:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 13:58:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 13:59:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:00:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:01:08 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:02:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:03:11 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:04:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:05:14 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:06:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:07:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:08:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:09:20 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:10:21 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:11:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:12:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:13:25 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:14:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:15:28 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:16:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:17:32 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:18:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:19:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:20:36 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:21:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:22:39 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:23:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:24:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:25:43 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:26:46 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:27:47 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:28:49 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:29:51 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:30:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:31:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:32:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:33:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:34:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:35:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:37:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:38:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:39:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:40:05 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:41:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:42:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:43:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:44:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:45:13 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:46:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:47:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:48:18 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:49:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:50:21 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:51:22 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:52:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:53:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:54:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:55:29 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:56:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:57:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:58:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 14:59:36 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:00:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:01:39 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:02:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:03:44 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:04:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:05:47 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:06:49 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:07:51 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:08:53 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:09:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:10:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:11:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:13:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:14:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:15:05 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:16:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:17:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:18:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:19:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:20:14 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:21:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:22:18 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:23:20 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:24:22 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:25:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:26:25 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:27:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:28:29 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:29:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:30:32 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:31:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:32:36 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:33:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:34:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:35:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:36:44 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:37:46 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:38:47 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:39:49 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:40:51 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:41:53 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:42:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:43:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:44:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:46:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:47:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:48:05 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:49:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:50:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:51:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:52:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:53:14 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:54:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:55:18 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:56:20 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:57:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:58:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 15:59:28 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 16:00:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 16:01:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 16:02:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 16:03:36 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 16:04:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 16:05:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 16:06:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 16:07:44 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 16:08:46 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 16:09:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 16:10:50 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 16:11:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 16:12:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 16:13:56 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/05 16:14:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:48:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:48:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:48:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:48:44 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:48:50 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:48:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:49:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:49:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:49:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:49:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:50:50 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:51:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:52:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:53:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:54:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:55:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:56:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:58:00 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 04:59:02 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:00:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:01:05 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:02:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:03:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:04:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:05:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:06:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:07:13 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:08:14 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:09:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:10:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:11:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:12:20 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:13:22 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:14:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:15:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:17:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:18:11 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:18:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:18:21 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:18:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:18:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:18:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:18:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 05:18:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 09:54:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 09:55:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 09:55:14 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 09:55:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 09:55:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 09:55:28 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 09:55:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 09:55:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 09:55:56 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 09:56:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 09:57:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 09:58:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 09:59:18 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 10:00:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 10:01:20 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 10:02:22 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 10:03:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 10:04:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 10:05:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 10:06:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 10:07:28 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 10:08:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/06 10:09:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:38:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:39:05 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:39:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:39:35 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:39:39 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:39:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:39:50 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:39:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:40:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:40:21 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:40:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:41:46 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:42:49 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:43:51 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:44:53 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:45:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:46:56 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:47:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:48:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:50:00 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:51:02 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:52:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 06:53:05 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/07 11:43:21 [error] 6#6: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+ReflectionException: Class www does not exist in /var/web/vendor/yiisoft/yii2/di/Container.php:431
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/di/Container.php(431): ReflectionClass->__construct('www')
+#1 /var/web/vendor/yiisoft/yii2/di/Container.php(365): yii\di\Container->getDependencies('www')
+#2 /var/web/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('www', Array, Array)
+#3 /var/web/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('www', Array, Array)
+#4 /var/web/vendor/yiisoft/yii2/base/Component.php(750): yii\BaseYii::createObject(Array)
+#5 /var/web/vendor/yiisoft/yii2/base/Component.php(734): yii\base\Component->attachBehaviorInternal('access', Array)
+#6 /var/web/vendor/yiisoft/yii2/base/Component.php(603): yii\base\Component->ensureBehaviors()
+#7 /var/web/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /var/web/vendor/yiisoft/yii2/w" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /www/index HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/07 11:43:47 [error] 6#6: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+ReflectionException: Class www does not exist in /var/web/vendor/yiisoft/yii2/di/Container.php:431
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/di/Container.php(431): ReflectionClass->__construct('www')
+#1 /var/web/vendor/yiisoft/yii2/di/Container.php(365): yii\di\Container->getDependencies('www')
+#2 /var/web/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('www', Array, Array)
+#3 /var/web/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('www', Array, Array)
+#4 /var/web/vendor/yiisoft/yii2/base/Component.php(750): yii\BaseYii::createObject(Array)
+#5 /var/web/vendor/yiisoft/yii2/base/Component.php(734): yii\base\Component->attachBehaviorInternal('verbs', Array)
+#6 /var/web/vendor/yiisoft/yii2/base/Component.php(603): yii\base\Component->ensureBehaviors()
+#7 /var/web/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /var/web/vendor/yiisoft/yii2/we" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /www/index HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/07 11:43:48 [error] 6#6: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+ReflectionException: Class www does not exist in /var/web/vendor/yiisoft/yii2/di/Container.php:431
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/di/Container.php(431): ReflectionClass->__construct('www')
+#1 /var/web/vendor/yiisoft/yii2/di/Container.php(365): yii\di\Container->getDependencies('www')
+#2 /var/web/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('www', Array, Array)
+#3 /var/web/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('www', Array, Array)
+#4 /var/web/vendor/yiisoft/yii2/base/Component.php(750): yii\BaseYii::createObject(Array)
+#5 /var/web/vendor/yiisoft/yii2/base/Component.php(734): yii\base\Component->attachBehaviorInternal('verbs', Array)
+#6 /var/web/vendor/yiisoft/yii2/base/Component.php(603): yii\base\Component->ensureBehaviors()
+#7 /var/web/vendor/yiisoft/yii2/base/Controller.php(274): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#8 /var/web/vendor/yiisoft/yii2/we" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /www/index HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/08 05:32:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:32:50 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:32:56 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:33:00 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:33:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:33:11 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:33:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:33:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:33:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:34:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:35:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:36:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:37:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:38:08 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:39:10 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:40:11 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:41:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:42:14 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:43:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:44:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:45:18 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 05:46:20 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/08 07:30:30 [error] 6#6: *40 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/web/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpExceptio" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/08 07:31:23 [error] 6#6: *40 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/web/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpExceptio" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/08 07:32:04 [error] 6#6: *40 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/web/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpExceptio" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/08 07:32:05 [error] 6#6: *40 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/web/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpExceptio" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/08 07:32:06 [error] 6#6: *40 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/web/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpExceptio" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/08 07:32:35 [error] 6#6: *40 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/web/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpExceptio" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/08 07:32:36 [error] 6#6: *40 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/web/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpExceptio" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/08 07:33:05 [error] 6#6: *40 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/web/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpExceptio" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/08 07:33:05 [error] 6#6: *40 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/web/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpExceptio" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/08 07:33:14 [error] 6#6: *40 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: post/inde in /var/web/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('inde', Array)
+#1 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('post/inde', Array)
+#2 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(y" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /post/inde HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/08 07:33:19 [error] 6#6: *40 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: post/about in /var/web/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('about', Array)
+#1 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('post/about', Array)
+#2 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Objec" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /post/about HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60", referrer: "http://localhost:60/post/index"
+2019/03/08 07:33:25 [error] 6#6: *40 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: post/contact in /var/web/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('contact', Array)
+#1 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('post/contact', Array)
+#2 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /post/contact HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60", referrer: "http://localhost:60/post/index"
+2019/03/08 07:33:30 [error] 6#6: *40 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/web/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpExceptio" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/08 07:43:27 [error] 6#6: *118 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "post/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('post/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: site/index in /var/web/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#1 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#2 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Objec" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /site/index HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60", referrer: "http://localhost:60/"
+2019/03/08 07:43:32 [error] 6#6: *118 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "post/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('post/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: site/ in /var/web/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#1 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#2 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/08 07:43:47 [error] 6#6: *118 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/web/controllers/SiteController.php on line 64. in /var/web/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/web/controllers/SiteController.php on line 64. in /var/web/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/web/vendor/yiisoft/yii2/base/Application.php(392): yii" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/08 10:23:37 [error] 6#6: *191 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "post/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('post/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: site/register in /var/web/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('register', Array)
+#1 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/register', Array)
+#2 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequ" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /site/register HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/10 05:40:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:40:35 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:40:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:41:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:41:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:42:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:42:25 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:42:47 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:43:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:43:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:43:53 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:44:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:44:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:45:00 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:45:22 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:45:44 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:46:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:46:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:46:29 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:46:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:46:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:46:43 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:46:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:46:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:47:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:47:39 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:48:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:49:32 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:50:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:51:35 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:52:36 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:53:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:54:39 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:55:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:56:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:57:43 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:58:44 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 05:59:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:00:51 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:01:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:02:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:03:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:04:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:05:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:07:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:08:02 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:09:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:10:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:11:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:12:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:13:08 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:14:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:15:11 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:16:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/10 06:17:13 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:10:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:11:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:11:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 07:11:28 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 07:11:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 07:11:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 07:11:43 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 07:11:51 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 07:12:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 07:12:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 07:13:28 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 07:14:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 07:15:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 07:16:36 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 07:17:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 07:19:08 [error] 6#6: *2 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.22.0.1, server: task-yii.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/11 09:38:36 [error] 6#6: *281 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "post/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('post/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: site/signup in /var/web/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#1 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/signup', Array)
+#2 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Ob" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /site/signup HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60", referrer: "http://localhost:60/site/login?"
+2019/03/11 09:39:08 [error] 6#6: *281 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "post/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('post/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: site/signup in /var/web/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#1 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/signup', Array)
+#2 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Ob" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /site/signup HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60", referrer: "http://localhost:60/site/login?"
+2019/03/11 09:39:36 [error] 6#6: *281 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "post/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('post/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: site/signup in /var/web/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#1 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/signup', Array)
+#2 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Ob" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /site/signup HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60", referrer: "http://localhost:60/site/login?"
+2019/03/11 10:13:47 [error] 6#6: *329 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "post/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('post/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "112". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('112', Array)
+#1 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/web/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpEx" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /site/index HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/11 10:22:43 [error] 6#6: *354 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "post/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('post/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "test". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('test', Array)
+#1 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/web/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttp" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /test HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/11 10:23:13 [error] 6#6: *354 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "post/error". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('post/error')
+#1 /var/web/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "index". in /var/web/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('index', Array)
+#1 /var/web/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/web/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHt" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /index HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/11 10:24:17 [error] 6#6: *358 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\ViewNotFoundException: The view file does not exist: /var/web/views/app/error.php in /var/web/vendor/yiisoft/yii2/base/View.php:233
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/web/views/...', Array, Object(app\controllers\AppController))
+#1 /var/web/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('error', Array, Object(app\controllers\AppController))
+#2 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(139): yii\base\Controller->render('error', Array)
+#3 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(118): yii\web\ErrorAction->renderHtmlResponse()
+#4 [internal function]: yii\web\ErrorAction->run()
+#5 /var/web/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#6 /var/web/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\Action->runWithParams(Array)
+#7 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('e" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /index HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/11 10:24:30 [error] 6#6: *358 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\ViewNotFoundException: The view file does not exist: /var/web/views/app/error.php in /var/web/vendor/yiisoft/yii2/base/View.php:233
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/web/views/...', Array, Object(app\controllers\AppController))
+#1 /var/web/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('error', Array, Object(app\controllers\AppController))
+#2 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(139): yii\base\Controller->render('error', Array)
+#3 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(118): yii\web\ErrorAction->renderHtmlResponse()
+#4 [internal function]: yii\web\ErrorAction->run()
+#5 /var/web/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#6 /var/web/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\Action->runWithParams(Array)
+#7 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('e" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /index HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/11 10:25:55 [error] 6#6: *375 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\ViewNotFoundException: The view file does not exist: /var/web/views/app/error.php in /var/web/vendor/yiisoft/yii2/base/View.php:233
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/web/views/...', Array, Object(app\controllers\AppController))
+#1 /var/web/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('error', Array, Object(app\controllers\AppController))
+#2 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(139): yii\base\Controller->render('error', Array)
+#3 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(118): yii\web\ErrorAction->renderHtmlResponse()
+#4 [internal function]: yii\web\ErrorAction->run()
+#5 /var/web/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#6 /var/web/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\Action->runWithParams(Array)
+#7 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('e" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /index HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/11 10:26:02 [error] 6#6: *375 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\ViewNotFoundException: The view file does not exist: /var/web/views/app/error.php in /var/web/vendor/yiisoft/yii2/base/View.php:233
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/web/views/...', Array, Object(app\controllers\AppController))
+#1 /var/web/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('error', Array, Object(app\controllers\AppController))
+#2 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(139): yii\base\Controller->render('error', Array)
+#3 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(118): yii\web\ErrorAction->renderHtmlResponse()
+#4 [internal function]: yii\web\ErrorAction->run()
+#5 /var/web/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#6 /var/web/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\Action->runWithParams(Array)
+#7 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('e" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /index HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/11 10:26:10 [error] 6#6: *375 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\ViewNotFoundException: The view file does not exist: /var/web/views/app/error.php in /var/web/vendor/yiisoft/yii2/base/View.php:233
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/web/views/...', Array, Object(app\controllers\AppController))
+#1 /var/web/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('error', Array, Object(app\controllers\AppController))
+#2 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(139): yii\base\Controller->render('error', Array)
+#3 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(118): yii\web\ErrorAction->renderHtmlResponse()
+#4 [internal function]: yii\web\ErrorAction->run()
+#5 /var/web/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#6 /var/web/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\Action->runWithParams(Array)
+#7 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('e" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /index HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/11 10:26:11 [error] 6#6: *375 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\ViewNotFoundException: The view file does not exist: /var/web/views/app/error.php in /var/web/vendor/yiisoft/yii2/base/View.php:233
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/web/views/...', Array, Object(app\controllers\AppController))
+#1 /var/web/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('error', Array, Object(app\controllers\AppController))
+#2 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(139): yii\base\Controller->render('error', Array)
+#3 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(118): yii\web\ErrorAction->renderHtmlResponse()
+#4 [internal function]: yii\web\ErrorAction->run()
+#5 /var/web/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#6 /var/web/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\Action->runWithParams(Array)
+#7 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('e" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /index HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/11 10:26:33 [error] 6#6: *375 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\ViewNotFoundException: The view file does not exist: /var/web/views/app/error.php in /var/web/vendor/yiisoft/yii2/base/View.php:233
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/web/views/...', Array, Object(app\controllers\AppController))
+#1 /var/web/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('error', Array, Object(app\controllers\AppController))
+#2 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(139): yii\base\Controller->render('error', Array)
+#3 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(118): yii\web\ErrorAction->renderHtmlResponse()
+#4 [internal function]: yii\web\ErrorAction->run()
+#5 /var/web/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#6 /var/web/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\Action->runWithParams(Array)
+#7 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('e" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET /index HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/11 10:26:37 [error] 6#6: *375 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\ViewNotFoundException: The view file does not exist: /var/web/views/app/error.php in /var/web/vendor/yiisoft/yii2/base/View.php:233
+Stack trace:
+#0 /var/web/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/web/views/...', Array, Object(app\controllers\AppController))
+#1 /var/web/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('error', Array, Object(app\controllers\AppController))
+#2 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(139): yii\base\Controller->render('error', Array)
+#3 /var/web/vendor/yiisoft/yii2/web/ErrorAction.php(118): yii\web\ErrorAction->renderHtmlResponse()
+#4 [internal function]: yii\web\ErrorAction->run()
+#5 /var/web/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#6 /var/web/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\Action->runWithParams(Array)
+#7 /var/web/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('e" while reading upstream, client: 172.22.0.1, server: task-yii.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.4:9000", host: "localhost:60"
+2019/03/11 13:34:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:34:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:34:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:34:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:34:32 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:34:36 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:34:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:34:49 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:35:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:35:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:36:22 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:37:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:38:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:39:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:40:28 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:41:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:42:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:43:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:44:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:45:35 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:46:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:47:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:48:39 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:49:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:50:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:51:43 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:52:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:53:46 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:54:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:55:49 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:56:50 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:57:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:58:53 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 13:59:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 14:00:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 14:01:57 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 14:02:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 14:03:59 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 14:05:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 14:06:04 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 14:07:05 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 14:08:09 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 14:09:12 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 14:10:13 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 14:11:15 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 14:12:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29
+2019/03/11 14:13:17 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/site.conf:29

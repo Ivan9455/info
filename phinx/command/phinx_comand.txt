@@ -1,0 +1,4 @@
+php vendor/bin/phinx migrate
+php vendor/bin/phinx seed:run -s UserSeeder -s CategorySeeder -s PostSeeder -s RatingSeeder -s BookmarkSeeder -s CommentSeeder
+//php vendor/bin/phinx seed:create UserSeeder
+//php vendor/bin/phinx create MyNewMigration
