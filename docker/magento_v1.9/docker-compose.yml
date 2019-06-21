@@ -1,0 +1,28 @@
+version: '2'
+
+services:
+  php:
+    build: ./docker/images/php
+    links:
+      - db:db
+    volumes:
+      - ./src/:/var/www/html
+    env_file:
+      - .env
+  db:
+    image: mariadb:10.3
+    ports:
+      - 127.0.0.1:3306:3306
+    volumes:
+      - ./docker/db:/var/lib/mysql
+    env_file:
+      - .env
+  nginx:
+    image: nginx:latest
+    links:
+      - php:php
+    ports:
+      - 127.0.0.1:80:80
+    volumes:
+      - ./src/:/var/www/html
+      - ./docker/nginx/conf.d:/etc/nginx/conf.d
